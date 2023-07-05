@@ -43,7 +43,7 @@ def get_answer(question, docsearch):
 col1, col2, col3 = st.columns([1,6,1])
 
 with col1:
-    st.image("Logo_delos.jpeg", width=150)
+    st.image("Delos.png", width=150)
 
 st.title("Delos-GPT")
 uploaded_file = st.file_uploader("Drag and drop un fichier PDF", type=["pdf"])
